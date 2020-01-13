@@ -81,3 +81,4 @@ autoload -Uz _zplugin
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light zdharma/fast-syntax-highlighting
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
