@@ -9,6 +9,8 @@
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"Babel",
+		"BracketHighlighter",
+		"Dracula Color Scheme",
 		"Emmet",
 		"ERB Snippets",
 		"Git",
@@ -16,6 +18,7 @@
 		"MagicPython",
 		"Package Control",
 		"SCSS",
+		"Solarized Color Scheme",
 		"SublimeLinter",
 		"SublimeLinter-rubocop"
 	]
