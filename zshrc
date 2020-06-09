@@ -92,4 +92,4 @@ export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.e
 sudo /etc/init.d/postgresql start
 
 # ZSH ALIAS
-alias reload="source ~/.zshrc"
+alias reload="source ~/.zshrc"export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
