@@ -11,7 +11,12 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+	editor = code --wait
+
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 
 [alias]
   co = checkout

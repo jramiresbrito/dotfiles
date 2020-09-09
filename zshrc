@@ -84,6 +84,8 @@ zplugin light zdharma/fast-syntax-highlighting
 
 # ZSH ALIAS
 alias reload="source ~/.zshrc"
+alias gst="git status"
+alias glog="git log"
 
 # This loads nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
