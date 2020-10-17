@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = code --wait
+	editor = subl -n -w  >/dev/null 2>&1
 	autocrlf = input
 
 [diff]
@@ -54,4 +54,4 @@
   mergeoptions = --no-edit
 [user]
 	email = joaoramires.engsoft@gmail.com
-	name = Joao Victor Ramires Guimaraes Brito
+	name = Joao Victor Ramires
